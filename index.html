@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Flexbox</title>
+    <link rel="stylesheet" href="assets/_css/style.css">
+    <script src="assets/_js/menu.js"></script>
+</head>
+<body>
+    <header>
+
+        <div class="container">
+<!----------------------LOGO------------------------>
+            <div class="logo">
+                <a href="index.html"><img class="imgLogo" src="assets/_images/imgLogo.png" alt="Logo"></a>
+            </div>
+<!----------------------NAV MENU ------------------------>
+            <div class="menu">
+                <nav id="menu">
+                    <div class="menuMobile">
+                        <div class="menuLine"></div>
+                        <div class="menuLine"></div>
+                        <div class="menuLine"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">home</a></li>
+                        <li><a href="">Ponto Nacionais</a></li>
+                        <li><a href="">Pontos Internacionais</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+        
+    </header>
+<!-------------------BANNER------------------->
+
+        <section id="banner">
+            <div class="container column">
+                <div class="banner_headline">
+                    <h1>Tour pelo mundo</h1>
+                    <h2>Conheça os pontos turisticos mais lindos ao rredor do mundo</h2>
+                </div>
+
+                <div class="banner_options">
+                    <div class="banner1">
+                        <div class="banner_title">Tour pelo Brasil</div>
+                        <div class="banner_desc">Conheça os melhores pontos turistico do Brasil</div>
+                        <a class="button_banner" href="">Saiba Mais</a>
+                    </div>
+                    <div class="banner2">
+                        <div class="banner_title">Tour pelo mundo</div>
+                        <div class="banner_desc">Conheça os melhores pontos turisticos do mundo</div>
+                        <a class="button_banner" href="">Saiba Mais</a>
+                    </div>
+                    <div class="banner3">
+                        <div class="banner_title">Top 10</div>
+                        <div class="banner_desc">Conheça os locais mais visitados pelos turistas</div>
+                        <a class="button_banner" href="">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------SECTION 2 AND ASIDE------------------->
+        <section id="geral">
+            <div class="container divSec">
+                <section>
+                    <div class="widget">
+                        <div class="widgetTitle">
+                            <div class="widgetTitleText">Pontos Túristicos</div>
+                            <div class="widgetTitleBar"></div>
+                        </div>
+                    </div>
+
+                    <div class="widgetBody flex">
+                        <article>
+                            <a href="">
+                                <div class="infoPoint">
+                                    <div class="namePoint">Cacún</div>
+
+                                    <div class="imgPoint">
+                                        <img class="img01" src="assets/_images/cancun.jpg">
+                                        
+                                    </div>
+                                    <div class="descPoint">
+                                        Cancún é uma cidade que fica na costa do estado de Quintana Roo, no México, em uma península que se tornou um dos centros turísticos mais importantes do México, tendo conseguido preservar suas belezas naturais e sua cultura ancestral, representada principalmente em cidades maias, como Tulum, Uxmal ou Chichén ...
+                                    </div>
+
+                            </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="infoPoint">
+                                    <div class="namePoint">Ibiza</div>
+
+                                    <div class="imgPoint">
+                                        <img class="img01" src="assets/_images/ibiza.png" alt="">
+                                        
+                                    </div>
+                                    <div class="descPoint">
+                                        Ibiza é uma ilha do arquipélago e comunidade autônoma das Ilhas Baleares. Fica localizada a leste da Espanha e sua maior cidade tem o mesmo nome da ilha.
+                                    </div>
+                                    
+                            </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="infoPoint">
+                                    <div class="namePoint">Torre Eiffel</div>
+
+                                    <div class="imgPoint">
+                                        <img class="img01" src="assets/_images/eiffel.jpg" alt="">
+                                        
+                                    </div>
+                                    <div class="descPoint">
+                                        A Torre Eiffel é uma torre treliça de ferro do século XIX localizada no Champ de Mars, em Paris, a qual se tornou um ícone mundial da França. A torre, que é o edifício mais alto da cidade, é o monumento pago mais visitado do mundo, com milhões de pessoas frequentando-o anualmente.
+                                    </div>
+                                    
+                            </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                                <div class="infoPoint">
+                                    <div class="namePoint">Coliseu</div>
+
+                                    <div class="imgPoint">
+                                        <img class="img01" src="assets/_images/coliseu.jpg" alt="">
+                                        
+                                    </div>
+                                    <div class="descPoint">
+                                        Maior e mais famoso símbolo do Império Romano, o Coliseu era um enorme anfiteatro reservado para combates entre gladiadores ou opondo esses guerreiros contra animais selvagens. Suntuoso, era mais confortável do que muitos estádios modernos. ... Para homenagear seu pai, Tito batizou a construção de “Anfiteatro Flaviano”
+                                    </div>
+                                    
+                            </div>
+                            </a>
+                        </article>
+
+                    </div>
+                </section>
+                <!-------------------ASIDE------------------->
+                <aside>
+                    <div class="widget">
+                        <div class="widgetTitle">
+                            <div class="widgetTitleText">Países mais visitados do Mundo</div>
+                            <div class="widgetTitleBar"></div>
+                            <!-------------------BOX BLUE------------------->
+                            <div class="spaceBox1">
+                                <div class="box1">França</div>
+                                <div class="box2">México</div>
+                            </div>
+                            <div class="spaceBox2">
+                                <div class="box1">Reino Unido</div>
+                                <div class="box2">Itália</div>
+                            </div>
+
+                            <div class="spaceBox3">
+                                <div class="box1">Turquia</div>
+                                <div class="box2">Estados Unidos</div>
+                            </div>  
+                        </div>
+
+                        <div class="widgetBody">
+                            
+                        </div>
+                    </div>
+<!-------------------ASIDE BOTTOM------------------->
+                    <div class="widget">
+                        <div class="widgetTitle">
+                            <div class="widgetTitleText">lorem ipsum dolor</div>
+                            <div class="widgetTitleBar"></div>
+                        </div>
+                    </div>
+
+                    <div class="widgetBody">
+                        <div class="wbText">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </div>
+                    </div>
+                        
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-------------------FOOTER---------------------->
+
+       <footer>
+           
+            <div class="container flexColumn">
+            
+                <div class="footerMenu">
+
+                    <div class="fm1">
+                        <div class="fm1Title">Pontos Túristicos</div>
+                        <div class="fm1Desc">Conheça os pontos turísticos mais visitados no mundo!</div>
+                    </div>
+                    <div class="fm2">
+                        <div class="fm2Title">Attractions</div>
+                        <div class="fm2Desc">Discover the most visited sights in the world!</div>
+                    </div>
+                    <div class="fm3">
+                        <div class="fm3Title">Puntos turisticos</div>
+                        <div class="fm3Desc">¡Descubre los lugares más visitados del mundo!</div>
+                    </div>
+
+                </div>
+                
+                <div class="footerArea">
+
+                    <div class="footerItem">
+                        <div class="widget">
+                            <div class="widgetTitle">
+                                <div class="widgetTitleText">Observações</div>
+                                <div class="widgetTitleBar"></div>
+                            </div>
+                        </div>
+    
+                        <div class="widgetBodyFooter1">
+                            <div class="widgetColumn1">
+                                Site feito para testes e aprimoramentos de técnicas Flexbox
+                            </div>
+
+                            <div class="widgetColumn1_2">
+                                <div class="columnLeft">
+                                    Tecnologias:
+                                    HTML5 -
+                                    CSS3 -
+                                    JAVA SCRIPT
+                                </div>
+                                <div class="columnRight">
+                                    Técnicas:
+                                    Flexbox
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footerItem">
+                        <div class="widget">
+                            <div class="widgetTitle">
+                                <div class="widgetTitleText">lorem ipsum dolor</div>
+                                <div class="widgetTitleBar"></div>
+                            </div>
+                        </div>
+    
+                        <div class="widgetBodyFooter2">
+
+                            <div class="widgetColumn2">
+                                <div class="column2Text">
+                                    lorem ipsum dolor
+                                </div>
+                                <div class="textBlue">
+                                    lorem ipsum dolor
+                                </div>
+
+                                <div class="column2Text">
+                                    lorem ipsum dolor
+                                </div>
+                                <div class="textBlue">
+                                    lorem ipsum dolor
+                                </div>
+
+                                <div class="column2Text">
+                                    lorem ipsum dolor
+                                </div>
+                                <div class="textBlue">
+                                    lorem ipsum dolor
+                                </div>
+
+                            </div>
+
+                            
+
+                            
+
+                            
+                        </div>
+                    </div>
+
+                    <div class="footerItem">
+                        <div class="widget">
+                            <div class="widgetTitle">
+                                <div class="widgetTitleText">lorem ipsum dolor</div>
+                                <div class="widgetTitleBar"></div>
+                            </div>
+                        </div>
+    
+                        <div class="widgetBodyFooter3">
+                            
+                                <div class="column2Text">
+                                    lorem ipsum dolor
+                                </div>
+                                <div class="textBlue">
+                                    lorem ipsum dolor
+                                </div>
+
+                                <div class="column2Text">
+                                    Tlorem ipsum dolor
+                                </div>
+                                <div class="textBlue">
+                                    lorem ipsum dolor
+                                </div>
+
+                                <div class="column2Text">
+                                    lorem ipsum dolor
+                                </div>
+                                <div class="textBlue">
+                                    lorem ipsum dolor
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footerCopy">
+                    <div class="copyText">Copyright - Todos os direitos reservados por Isaac Pinto Ramos</div>
+                </div>
+            </div>
+        
+       </footer>
+    
+</body>
+</html>
